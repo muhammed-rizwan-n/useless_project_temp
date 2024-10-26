@@ -16,12 +16,14 @@
 It is basically for the dating of college students, students can date other students based on the grading, hobbies and skills of the students 
 
 ### The Problem (that doesn't exist)
-Normally dating is not based on the grading and skills of the 
+Normally dating is not based on the grading and skills of the person, that what we focused to build on
 
 
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Initially we had planned to use 'Appwrite' which is a commonly known backend service provider (BaaS) for the api request and so on, but turned out to be a worst nightmare since they hade multiple restriction is creating cloud/edge functions as well as trouble in database connectivity. Due to those facts, we had to migrate the entire program to Node JS.
+
+But that doesn't ends there, later we faced a serious trouble in the frontend part, where figma literaly declined to convert our design to react. This made up a huge burden which made this entire on a clueless as well as a useless project.
 
 ## Technical Details
 ### Technologies/Components Used
@@ -48,7 +50,7 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Home Page](https://github.com/muhammed-rizwan-n/useless_project_temp/photos/Screenshot 2024-10-26 at 20-37-58 Funda Meets - Find Your Match.png)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
