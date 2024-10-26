@@ -13,23 +13,24 @@
 - Member 3: Muhammed Rafzan R - College Of Engineering Perumon
 
 ### Project Description
-It is basically for the dating of college students, students can date other students based on the grading, hobbies and skills of the students 
+It is basically for the dating web app of college students, students can date other students based on the grading, hobbies and skills of the students 
 
 ### The Problem (that doesn't exist)
-Normally dating is not based on the grading and skills of the 
+Normally dating is not based on the grading and skills of the individual, but as a problem that doesnt exist we use this as a condition and feauture for creating the web app and the idea. 
 
 
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+The solution is the idea to encouraging the academics and other skills as a part of campus dating, and for this useless project, we tried to create a webapp that matches this condition.
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+For Software components used
+
+- HTML,CSS,JAVASCRIPT
+- Node.js , MongoDB
+  
 
 For Hardware:
 - [List main components]
@@ -42,7 +43,7 @@ For Software:
 [commands]
 
 # Run
-[commands]
+nodemon app.js  //node js backend app run
 
 ### Project Documentation
 For Software:
