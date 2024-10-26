@@ -52,13 +52,19 @@ For Software:
 # Screenshots (Add at least 3)
 
 ![Home Page](https://github.com/muhammed-rizwan-n/useless_project_temp/blob/7d31116c3dd040813df6cd2e5a6455c7576a5c0e/Screenshot/Screenshot%202024-10-26%20at%2020-37-58%20Funda%20Meets%20-%20Find%20Your%20Match.png)
-*Add caption explaining what this shows*
+*This is our basic home page*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](https://github.com/muhammed-rizwan-n/useless_project_temp/blob/b4b83e8cc876a3c040970d307f006cf0c95ceda1/Screenshot/Screenshot%202024-10-26%20at%2020-38-06%20Funda%20Meets%20-%20Sign%20In.png)
+*Sign in page*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](https://github.com/muhammed-rizwan-n/useless_project_temp/blob/b4b83e8cc876a3c040970d307f006cf0c95ceda1/Screenshot/Screenshot%202024-10-26%20at%2020-38-15%20Funda%20Meets%20-%20Sign%20Up.png)
+*Sign up page (Extremely Useless)*
+
+![Sc4](https://github.com/muhammed-rizwan-n/useless_project_temp/blob/b4b83e8cc876a3c040970d307f006cf0c95ceda1/Screenshot/Screenshot%202024-10-26%20at%2020-38-47%20FundaMeets.png)
+*User home page. Here the Student list displayed is dynamic that is fetch from the mongodb database*
+
+![SC5](https://github.com/muhammed-rizwan-n/useless_project_temp/blob/b4b83e8cc876a3c040970d307f006cf0c95ceda1/Screenshot/Screenshot%202024-10-26%20at%2020-39-00%20Student%20Profile.png)
+*Users profile page*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
