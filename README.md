@@ -50,7 +50,8 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Home Page](https://github.com/muhammed-rizwan-n/useless_project_temp/photos/Screenshot 2024-10-26 at 20-37-58 Funda Meets - Find Your Match.png)
+
+![Home Page](https://github.com/muhammed-rizwan-n/useless_project_temp/blob/7d31116c3dd040813df6cd2e5a6455c7576a5c0e/Screenshot/Screenshot%202024-10-26%20at%2020-37-58%20Funda%20Meets%20-%20Find%20Your%20Match.png)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
