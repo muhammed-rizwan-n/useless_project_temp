@@ -22,8 +22,12 @@ function generateStudentCards(students) {
         card.className = 'student-card';
 
         // Create an image element
+        //const image = document.getElementById("profile-picker");
+        //const imageUrl = `https://raw.githubusercontent.com/username/`;
+        //image.src = imageUrl;
         const img = document.createElement('img');
-        img.src = "https://img.freepik.com/premium-photo/stylish-man-flat-vector-profile-picture-ai-generated_606187-310.jpg"; // Assuming 'photo' is the field in your API
+        img.src = `https://raw.githubusercontent.com/muhammed-rizwan-n/useless_project_temp/photos/${student.thumbnail_url}`
+        //img.src = `https://https://raw.githubusercontent.com/muhammed-rizwan-n/useless_project_temp/refs/heads/photos/${student.thumbnail_url}` //"https://img.freepik.com/premium-photo/stylish-man-flat-vector-profile-picture-ai-generated_606187-310.jpg"; // Assuming 'photo' is the field in your API
         img.alt = student.name;
         img.className = 'student-photo';
 

@@ -27,6 +27,8 @@ async function fetchStData() {
 }
 
 async function setdata(students) {
+    const img = document.getElementById("profile-picker");
+    img.src = `https://raw.githubusercontent.com/muhammed-rizwan-n/useless_project_temp/photos/${students.thumbnail_url}`
     // Set the student details in the profile page
 document.getElementById('student-name').innerText = students.name;
 document.getElementById('student-hobbies').innerText = students.AcademicProfile.skillsAcquired.join(' , ');

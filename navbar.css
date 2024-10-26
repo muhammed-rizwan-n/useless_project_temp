@@ -1,0 +1,22 @@
+.navbar-nav .nav-link {
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00bfa5 !important;
+}
+
+.search-container input[type="text"] {
+    border-radius: 0.375rem;
+}
+
+.search-container .btn-search {
+    background-color: #00bfa5;
+    color: white;
+    border-radius: 0.375rem;
+}
+
+.search-container .btn-search:hover {
+    background-color: #008a72;
+}
