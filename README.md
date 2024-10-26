@@ -1,22 +1,24 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# fundas dating app 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: fundas
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Muhammed Rizwan N - College Of Engineering Perumon
+- Member 2: Muhammed Shan S - College Of Engineering Perumon
+- Member 3: Muhammed Rafzan R - College Of Engineering Perumon
 
 ### Project Description
-[2-3 lines about what your project does]
+It is basically for the dating of college students, students can date other students based on the grading, hobbies and skills of the students 
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Normally dating is not based on the grading and skills of the 
+
+
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]
