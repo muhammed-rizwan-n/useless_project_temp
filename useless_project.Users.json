@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "671bf3c62ac7dd4aa40ca69e"
+  },
+  "name": "Sreehari R S",
+  "department": "CS",
+  "year": 2,
+  "bio": "I am .....",
+  "email": "demo@gmail.com",
+  "password": "password",
+  "phoneNo": "91298371",
+  "socialMedia": {
+    "instagram": "www.instagram.com/hello"
+  },
+  "AcademicProfile": {
+    "$oid": "671c00282ac7dd4aa40ca6b0"
+  },
+  "thumbnail_url": "url",
+  "username": "username",
+  "id": "671bf3c62ac7dd4aa40ca69e"
+},
+{
+  "_id": {
+    "$oid": "671bf3c62ac7dd4aa40ca69f"
+  },
+  "name": "SK R S",
+  "department": "CS",
+  "year": 2,
+  "bio": "I am .....",
+  "email": "d@gmail.com",
+  "password": "password",
+  "phoneNo": "91271",
+  "socialMedia": {
+    "instagram": "www.instagram.com/helo"
+  },
+  "AcademicProfile": {
+    "$oid": "671c00282ac7dd4aa40ca6b1"
+  },
+  "thumbnail_url": "url",
+  "username": "username",
+  "id": "671bf3c62ac7dd4aa40ca69f"
+},
+{
+  "_id": {
+    "$oid": "671bf3c62ac7dd4aa40ca69a"
+  },
+  "name": "ID R S",
+  "department": "CS",
+  "year": 2,
+  "bio": "I am .....",
+  "email": "demo@gmail.com",
+  "password": "pass",
+  "phoneNo": "91271",
+  "socialMedia": {
+    "instagram": "www.instagram.com/helo"
+  },
+  "AcademicProfile": {
+    "$oid": "671c00282ac7dd4aa40ca6b2"
+  },
+  "thumbnail_url": "url",
+  "username": "use",
+  "id": "671bf3c62ac7dd4aa40ca69g"
+}]

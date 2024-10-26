@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "671c00282ac7dd4aa40ca6b0"
+  },
+  "userId": {
+    "$oid": "671bf3c62ac7dd4aa40ca69e"
+  },
+  "currentGPA": "3.9",
+  "department": "CS",
+  "expectedGraduationYear": 2027,
+  "skillsAcquired": [
+    "JavaScript",
+    "C"
+  ]
+},
+{
+  "_id": {
+    "$oid": "671c00282ac7dd4aa40ca6b1"
+  },
+  "userId": {
+    "$oid": "671bf3c62ac7dd4aa40ca69a"
+  },
+  "currentGPA": "3",
+  "department": "CS",
+  "expectedGraduationYear": 2027,
+  "skillsAcquired": [
+    "JavaScript",
+    "C"
+  ]
+},
+{
+  "_id": {
+    "$oid": "671c00282ac7dd4aa40ca6b2"
+  },
+  "userId": {
+    "$oid": "671bf3c62ac7dd4aa40ca69f"
+  },
+  "currentGPA": "5.9",
+  "department": "ME",
+  "expectedGraduationYear": 2037,
+  "skillsAcquired": [
+    "JavaScript",
+    "C"
+  ]
+}]
