@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="profile.js"></script>
+</head>
+<body>
+    <style>
+        /* Main container */
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        /* Profile box styling */
+        .profile-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            padding: 20px;
+            border-radius: 15px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        .profile-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-box h2 {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .profile-box p {
+            font-family: Arial, sans-serif;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        /* Button styling */
+        .button-container {
+            margin-top: 15px;
+        }
+
+        #request-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        #request-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Sidebar for extra photos */
+        .extra-photos {
+            width: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .extra-photos img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+<header>
+    <h1 id="student-name"></h1>
+</header>
+
+<main class="profile-container">
+    <!-- Profile box -->
+    <div class="profile-box">
+        <img src="https://img.freepik.com/premium-photo/stylish-man-flat-vector-profile-picture-ai-generated_606187-306.jpg" alt="Profile Picture" class="profile-logo">
+        <h2>Profile Details</h2>
+        
+        <p class="about"><strong>About:</strong> <span id="student-about">Aspiring developer with a passion for coding and design.</span></p>
+        <p><strong>Skills: </strong> <span id="student-hobbies">JavaScript, Python, UI/UX</span></p>
+        <p><strong>CGPA: </strong> <span id="student-marks">3.8</span></p>
+
+        <!-- Button container -->
+        <div class="button-container">
+            <button id="request-button">Send Friend Request</button>
+        </div>
+    </div>
+
+    <!-- Extra photos section -->
+    <div class="extra-photos" id="photo-container">
+    </div>
+    
+</main>
+
+<!-- JavaScript -->
+
+
+<footer>
+    <p>Swipe right for love!</p>
+</footer>
+
+</body>
+</html>
