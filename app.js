@@ -8,7 +8,6 @@ const User = require('./models/Users');
 const Photo = require('./models/Photos');
 const AcademicProfile = require('./models/AcademicProfile');
 
-
 const app = express();
 app.use(cors());
 const PORT = process.env.PORT || 3000;
