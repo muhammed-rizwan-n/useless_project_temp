@@ -36,7 +36,7 @@
               <div class="ms-3">
                   <a href="signin.html" id= "signInButton"class="btn btn-primary me-2">Sign In</a>
                   <a href="signup.html" id = "signUpButton" class="btn btn-secondary">Sign Up</a>
-                  <a href="signup.html" id = "Log Out" class="btn btn-secondary" hidden='true'>Log Out</a>
+                  <a onclick="" id = "LogOut" class="btn btn-secondary" hidden='true'>Log Out</a>
 
               </div>
           </div>
@@ -47,11 +47,13 @@
             const userId = localStorage.getItem('userId');
             const signInButton = document.getElementById('signInButton');
             const signUpButton = document.getElementById('signUpButton');
+            const logout = document.getElementById('LogOut');
 
 
             if (userId) {
                 console.log("User is already signed in. Hiding the sign-in button.");
                 signInButton.classList.add('hidden'); // Hide the button if userId exists
+                logout.classList.remove('hidden')
             } else {
                 console.log("User not signed in.");
             }
@@ -103,7 +105,7 @@
           <div class="column">
             <div class="card">
               <div class="container">
-                <h2>Muhammed Rfazan R</h2>
+                <h2>Muhammed Rafzan R</h2>
                 <p class="title"></p>
                 <p><button class="button">Contact</button></p>
               </div>
