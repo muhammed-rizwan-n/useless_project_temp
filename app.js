@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/useless_project', {
+mongoose.connect('mongodb+srv://rizwan123tkm:uCiLvS8qqHsdox86@useless.vrffu.mongodb.net/?retryWrites=true&w=majority&appName=Useless', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
