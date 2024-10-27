@@ -35,7 +35,13 @@ app.get('/users/', async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 });
-
+app.get('/hellworld', async (req, res) => {
+    try {
+      return res.status(200).json({ message: 'Helloworld' });
+    } catch (error) {
+      res.status(500).json({ message: error.message });
+    }
+  });
 app.get('/users/:id', async (req, res) => {
     try {
       const user = await User.findById(req.params.id).populate('AcademicProfile');
