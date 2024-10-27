@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funda Meets - Sign In</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        body {
+            background-color: #f4f7f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .form-container h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .btn-custom {
+            width: 100%;
+            background-color: #00bfa5;
+            color: white;
+        }
+
+        .btn-custom:hover {
+            background-color: #008a72;
+        }
+
+        .footer-text {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .footer-text a {
+            color: #00bfa5;
+            text-decoration: none;
+        }
+
+        .footer-text a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body  style="background-color: #f47373;">
+    <div class="form-container">
+        <form id="signinform">
+            <h2>Funda Meets - Sign In</h2>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password" required>
+            </div>
+
+            <!-- Remember Me Checkbox -->
+            <div class="mb-3 form-check">
+                <input type="checkbox" name="rememberMe" class="form-check-input" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">Remember Me</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-custom">Sign In</button>
+            
+            <!-- Footer text for Sign Up link and Forgot Password -->
+            <div class="footer-text">
+                <a href="forgot-password.html">Forgot Password?</a>
+            </div>
+            <div class="footer-text">
+                Don’t have an account? <a href="signup.html">Sign Up</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // JavaScript for handling form submission
+        document.getElementById('signinform').addEventListener('submit', async function(event) {
+            event.preventDefault();  // Prevent the default form submission
+
+            // Collect form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData.entries()); // Convert to plain object
+            console.log("Collected Data:", data); // Log form data to console
+
+            try {
+                // Send data using fetch
+                const response = await fetch("http://localhost:3000/signin", {  // Replace with your API URL
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data) // Send collected data as JSON
+                });
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const result = await response.json();
+                console.log('Success:', result);
+                localStorage.setItem('userId', result.userId); // Assuming `userId` is part of the response
+                alert("Sign-in successful!");
+                window.location.href = "home.html"; // Replace with your target page URL
+            } catch (error) {
+                console.error('Error:', error);
+                alert("There was an error during sign-in.");
+            }
+        });
+    </script>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
